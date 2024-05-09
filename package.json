@@ -1,5 +1,5 @@
 {
-  "name": "@tamagui/lucide-icons",
+  "name": "@tamagui/wugo-icons",
   "version": "1.97.1",
   "sideEffects": false,
   "description": "React Native components for Lucide icons - native and web",

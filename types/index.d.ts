@@ -1,12 +1,22 @@
+export { Apple } from './icons/apple';
 export { ArrowLeft } from './icons/arrow-left';
 export { ArrowRight } from './icons/arrow-right';
 export { BellOutline } from './icons/bell-outline';
+export { EditBoard } from './icons/edit-board';
+export { Email } from './icons/email';
+export { Facebook } from './icons/facebook';
 export { FavoriteOutline } from './icons/favorite-outline';
+export { Google } from './icons/google';
+export { Header } from './icons/header';
 export { HomeOutline } from './icons/home-outline';
 export { LocationOutline } from './icons/location-outline';
+export { Lock } from './icons/lock';
 export { OnboardingAmusement } from './icons/onboarding-amusement';
 export { OnboardingConnect } from './icons/onboarding-connect';
 export { OnboardingEvents } from './icons/onboarding-events';
 export { OnboardingPersonalize } from './icons/onboarding-personalize';
 export { PersonOutline } from './icons/person-outline';
+export { PersonRoundedOutline } from './icons/person-rounded-outline';
+export { PhoneOutline } from './icons/phone-outline';
+export { SuccessBadge } from './icons/success-badge';
 //# sourceMappingURL=index.d.ts.map

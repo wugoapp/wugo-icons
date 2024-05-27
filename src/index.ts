@@ -19,3 +19,4 @@ export { PersonOutline } from './icons/person-outline';
 export { PersonRoundedOutline } from './icons/person-rounded-outline';
 export { PhoneOutline } from './icons/phone-outline';
 export { SuccessBadge } from './icons/success-badge';
+export { WugoLogo } from './icons/wugo-logo';

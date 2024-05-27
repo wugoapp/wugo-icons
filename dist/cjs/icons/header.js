@@ -3,7 +3,7 @@ import { Svg, G, Circle, Ellipse, Defs, ClipPath, LinearGradient, Stop, Rect, } 
 import { themed } from '@tamagui/helpers-icon';
 const Icon = (props) => {
     const { color = 'black', size = 24, ...otherProps } = props;
-    return (<Svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={otherProps.width} height={otherProps.height} viewBox="0 0 375.274 158.822" {...otherProps}>
+    return (<Svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 375.274 158.822" {...otherProps}>
     <Defs>
       <ClipPath id="clip-path">
         <Rect y={103} width={375.274} height={158.822} fill="none"/>

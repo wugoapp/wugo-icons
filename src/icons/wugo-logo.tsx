@@ -6,13 +6,6 @@ import {
   G,
   Path,
   Text as _Text,
-  Circle,
-  Ellipse,
-  Defs,
-  ClipPath,
-  LinearGradient,
-  Stop,
-  Rect,
 } from 'react-native-svg';
 import { themed } from '@tamagui/helpers-icon';
 

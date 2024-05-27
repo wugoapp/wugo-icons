@@ -22,8 +22,8 @@ const Icon = (props) => {
     <Svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={size}
-    height={size}
+    width={otherProps.width}
+    height={otherProps.height}
     viewBox="0 0 375.274 158.822"
     {...otherProps}
   >

@@ -16,10 +16,10 @@ const Icon = (props) => {
   return (
     <Svg
     xmlns="http://www.w3.org/2000/svg"
-    width={13.4}
-    height={13.4}
+    width={size}
+    height={size}
     viewBox="0 0 13.4 13.4"
-    {...props}
+    {...otherProps}
   >
     <G
       id="Saat_Profil"
@@ -32,8 +32,8 @@ const Icon = (props) => {
         cy={6}
         r={6}
         transform="translate(136.5 646.5)"
-        fill="#fff"
-        stroke="#b4b4b4"
+        fill="transparent"
+        stroke={color}
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeMiterlimit={10}
@@ -44,7 +44,7 @@ const Icon = (props) => {
         d="M0,0V3.776L2.517,5.034"
         transform="translate(141.5 649.5)"
         fill="none"
-        stroke="#b4b4b4"
+        stroke={color}
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeMiterlimit={10}

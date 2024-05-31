@@ -8,6 +8,7 @@ import {
   Text as _Text,
   ClipPath,
   Defs,
+  Rect,
 } from 'react-native-svg';
 import { themed } from '@tamagui/helpers-icon';
 

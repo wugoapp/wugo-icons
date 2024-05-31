@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import type { IconProps } from '@tamagui/helpers-icon';
 import {
   Svg,
-  Circle as _Circle,
+  Circle,
   G,
   Path,
   Text as _Text,

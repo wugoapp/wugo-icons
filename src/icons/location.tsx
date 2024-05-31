@@ -16,9 +16,10 @@ const Icon = (props) => {
   return (
     <Svg
     xmlns="http://www.w3.org/2000/svg"
-    width={10.953}
-    height={13.939}
+    width={size}
+    height={size}
     viewBox="0 0 10.953 13.939"
+    color={color}
     {...props}
   >
     <Path

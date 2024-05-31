@@ -2,6 +2,8 @@ export { Apple } from './icons/apple';
 export { ArrowLeft } from './icons/arrow-left';
 export { ArrowRight } from './icons/arrow-right';
 export { BellOutline } from './icons/bell-outline';
+export { Calendar } from './icons/calendar';
+export { Clock } from './icons/clock';
 export { EditBoard } from './icons/edit-board';
 export { Email } from './icons/email';
 export { Facebook } from './icons/facebook';

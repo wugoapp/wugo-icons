@@ -18,6 +18,7 @@ export { CameraCircle } from './icons/camera-circle';
 export { Camera } from './icons/camera';
 export { Car } from './icons/car';
 export { ChatOutline } from './icons/chat-outline';
+export { ChevronDownOutline } from './icons/chevron-down-outline';
 export { Clock } from './icons/clock';
 export { CloseCircleOutline } from './icons/close-circle-outline';
 export { CloseCircle } from './icons/close-circle';

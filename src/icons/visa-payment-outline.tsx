@@ -1,0 +1,38 @@
+import React, { memo } from 'react';
+import type { IconProps } from '@tamagui/helpers-icon';
+import {
+  Svg,
+  Circle as _Circle,
+  G,
+  Path,
+  Text as _Text,
+  ClipPath,
+  Defs,
+  Rect,
+  Line,
+} from 'react-native-svg';
+import { themed } from '@tamagui/helpers-icon';
+
+const Icon = (props) => {
+  const { color = 'black', size = 24, ...otherProps } = props
+  return (
+    <Svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 50 36"
+    {...otherProps}
+  >
+    <Path
+      id="icons8-visa"
+      d="M5,7a5.015,5.015,0,0,0-5,5V38a5.015,5.015,0,0,0,5,5H45a5.015,5.015,0,0,0,5-5V12a5.015,5.015,0,0,0-5-5ZM5,9H45a2.986,2.986,0,0,1,3,3V38a2.986,2.986,0,0,1-3,3H5a2.986,2.986,0,0,1-3-3V12A2.986,2.986,0,0,1,5,9ZM29.688,19.406c-3.1,0-4.687,1.527-4.687,3.469,0,3.512,4.063,3.039,4.063,4.844,0,.3-.234,1.031-1.937,1.031a5.938,5.938,0,0,1-2.812-.656l-.531,2.375A7.012,7.012,0,0,0,27,31.094c2.113,0,5.031-1.617,5.031-3.969,0-2.828-4.063-3.051-4.063-4.312,0-.645.5-1.125,1.969-1.125a4.464,4.464,0,0,1,2.031.719l.5-2.437A8.758,8.758,0,0,0,29.688,19.406Zm-13.219.219-2.687,7.938s-.184-.676-.25-1.094A9.994,9.994,0,0,0,9.5,21.75l2.375,9h3.25l4.5-11.125Zm4.313,0L19.031,30.75H22l1.781-11.125Zm16.031,0L31.969,30.75h2.938l.594-1.594h3.688L39.5,30.75h2.688L39.906,19.625ZM6.25,19.656s5.8,1.8,7.156,6.156l-1-5.062a1.789,1.789,0,0,0-1.594-1.094Zm31.688,3.188.813,4.188H36.313Z"
+      transform="translate(0 -7)"
+      fill={color}
+    />
+  </Svg>
+  )
+}
+
+Icon.displayName = 'VisaPaymentOutline';
+
+export const VisaPaymentOutline = memo<IconProps>(themed(Icon));

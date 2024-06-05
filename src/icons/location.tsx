@@ -20,7 +20,7 @@ const Icon = (props) => {
     height={size}
     viewBox="0 0 10.953 13.939"
     color={color}
-    {...props}
+    {...otherProps}
   >
     <Path
       id="Path_3652"

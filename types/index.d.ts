@@ -83,4 +83,5 @@ export { VisaPayment } from './icons/visa-payment';
 export { VoteScreen } from './icons/vote-screen';
 export { Workshop } from './icons/workshop';
 export { WugoLogo } from './icons/wugo-logo';
+export { Tick } from './icons/tick';
 //# sourceMappingURL=index.d.ts.map

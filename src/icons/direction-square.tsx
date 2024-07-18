@@ -35,7 +35,7 @@ const Icon = (props) => {
         width={14.315}
         height={14.315}
         transform="translate(580.066 7468.943) rotate(45)"
-        fill="transparent"
+        fill="#fff"
       />
       <G
         id="Group_63501"

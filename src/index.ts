@@ -43,6 +43,7 @@ export { Favorite } from './icons/favorite';
 export { Filter } from './icons/filter';
 export { Gallery } from './icons/gallery';
 export { Google } from './icons/google';
+export { GPS } from './icons/gps';
 export { GradientStar } from './icons/gradient-star';
 export { HandBook } from './icons/hand-book';
 export { Header } from './icons/header';

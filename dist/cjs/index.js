@@ -37,6 +37,7 @@ export { EditOutline } from './icons/edit-outline';
 export { EllipsisVertical } from './icons/ellipsis-vertical';
 export { Email } from './icons/email';
 export { ExcitementEmoji } from './icons/excitement-emoji';
+export { ExclamationOutline } from './icons/exclamation-outline';
 export { Facebook } from './icons/facebook';
 export { FavoriteOutline } from './icons/favorite-outline';
 export { Favorite } from './icons/favorite';

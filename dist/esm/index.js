@@ -72,6 +72,7 @@ export { ScanBarcode } from './icons/scan-barcode';
 export { Search } from './icons/search';
 export { Send } from './icons/send';
 export { Settings } from './icons/settings';
+export { ShareBucket } from './icons/share-bucket';
 export { Share } from './icons/share';
 export { Sports } from './icons/sports';
 export { SSL } from './icons/ssl';

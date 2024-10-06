@@ -17,10 +17,10 @@ const Icon = (props) => {
   return (
     <Svg
     xmlns="http://www.w3.org/2000/svg"
-    width={13.04}
-    height={13.04}
+    width={size}
+    height={size}
     viewBox="0 0 13.04 13.04"
-    {...props}
+    {...otherProps}
   >
     <G
       id="Group_60470"

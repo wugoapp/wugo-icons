@@ -26,7 +26,7 @@ const Icon = (props) => {
     xmlnsXlink="http://www.w3.org/1999/xlink"
     width={size}
     height={size}
-    viewBox="0, 0, 400,400"
+    viewBox="54.8 91.92 293.6 237.68"
     {...otherProps}
   >
     <G id="svgg">

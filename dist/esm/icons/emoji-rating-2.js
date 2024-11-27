@@ -3,7 +3,7 @@ import { Svg, G, Path, ClipPath, Defs, Rect, Stop, RadialGradient, LinearGradien
 import { themed } from '@tamagui/helpers-icon';
 const Icon = (props) => {
     const { color = 'black', size = 24, ...otherProps } = props;
-    return (<Svg id="Group_59628" data-name="Group 59628" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={60.128} height={49.797} viewBox="0 0 60.128 49.797" {...props}>
+    return (<Svg id="Group_59628" data-name="Group 59628" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={size} height={size} viewBox="0 0 60.128 49.797" {...otherProps}>
     <Defs>
       <ClipPath id="clip-path">
         <Rect id="Rectangle_7854" data-name="Rectangle 7854" width={60.128} height={49.797} fill="none"/>
@@ -11,7 +11,7 @@ const Icon = (props) => {
       <ClipPath id="clip-path-2">
         <Path id="Path_66027" data-name="Path 66027" d="M29.439,12.816c-5.936.8-10.978,2.7-14.3,6.218a.01.01,0,0,1,0,.006c-.228.284-.442.578-.648.885a18.227,18.227,0,0,0-2.864,10.492A26.867,26.867,0,0,0,38.481,57.282c.39,0,.773-.006,1.16-.023q1.006-.044,1.992-.158A26.291,26.291,0,0,0,63.476,31.164c0-14.226-11.282-18.639-25.388-18.821-.307,0-.618-.006-.928-.006a57.942,57.942,0,0,0-7.721.479" transform="translate(-11.619 -12.337)" fill="none"/>
       </ClipPath>
-      <RadialGradient id="radial-gradient" cx={0.748} cy={0.515} r={0.757} gradientTransform="matrix(-0.982, 0, 0, 1, 0.114, 0)" gradientUnits="objectBoundingBox">
+      <RadialGradient id="radial-gradient">
         <Stop offset={0} stopColor="#fcd428"/>
         <Stop offset={0.38} stopColor="#fad127"/>
         <Stop offset={0.552} stopColor="#f7ca24"/>

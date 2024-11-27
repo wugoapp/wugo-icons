@@ -20,17 +20,18 @@ import {
 import { themed } from '@tamagui/helpers-icon';
 
 const Icon = (props) => {
-  const { color = 'black', size = 24, ...otherProps } = props
+  const { color = 'black', size = 24, ...otherProps } = props;
+
   return (
     <Svg
     id="Group_59628"
     data-name="Group 59628"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={60.128}
-    height={49.797}
+    width={size}
+    height={size}
     viewBox="0 0 60.128 49.797"
-    {...props}
+    {...otherProps}
   >
     <Defs>
       <ClipPath id="clip-path">
@@ -51,14 +52,7 @@ const Icon = (props) => {
           fill="none"
         />
       </ClipPath>
-      <RadialGradient
-        id="radial-gradient"
-        cx={0.748}
-        cy={0.515}
-        r={0.757}
-        gradientTransform="matrix(-0.982, 0, 0, 1, 0.114, 0)"
-        gradientUnits="objectBoundingBox"
-      >
+      <RadialGradient id="radial-gradient">
         <Stop offset={0} stopColor="#fcd428" />
         <Stop offset={0.38} stopColor="#fad127" />
         <Stop offset={0.552} stopColor="#f7ca24" />

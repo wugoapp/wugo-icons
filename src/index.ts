@@ -51,6 +51,7 @@ export { DocumentSignage } from './icons/document-signage';
 export { DocumentVerified } from './icons/document-verified';
 export { Document } from './icons/document';
 export { Download } from './icons/download';
+export { Email } from './icons/email';
 export { EditBoard } from './icons/edit-board';
 export { EditDocument } from './icons/edit-document';
 export { EditOutline } from './icons/edit-outline';

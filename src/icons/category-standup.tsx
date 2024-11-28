@@ -16,12 +16,12 @@ const Icon = (props) => {
   const { color = '#302e2e', size = 24, ...otherProps } = props
   return (
     <Svg
-    width={194}
-    height={335}
+    width={size}
+    height={size}
     viewBox="0 0 194 335"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    {...otherProps}
   >
     <Path
       fillRule="evenodd"

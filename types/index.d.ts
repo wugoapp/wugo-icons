@@ -108,6 +108,7 @@ export { Train } from './icons/train';
 export { Trash } from './icons/trash';
 export { TroyPayment } from './icons/troy-payment';
 export { Upload } from './icons/upload';
+export { VideoCircle } from './icons/video-circle';
 export { VerifiedBadge } from './icons/verified-badge';
 export { VisaPaymentOutline } from './icons/visa-payment-outline';
 export { VisaPayment } from './icons/visa-payment';

@@ -44,14 +44,14 @@ const Icon = (props) => {
           data-name="Path 71015"
           d="M142.34,234.35h36.089s8.8.88,9.1,7.923v27.286H152.609s-9.976,1.173-10.269-9.1Z"
           transform="translate(-142.34 -234.35)"
-          fill="transparent"
+          fill="#fff"
         />
         <Path
           id="Path_71016"
           data-name="Path 71016"
           d="M471.93,234.35V269.6l-15.55-10.31V244.913Z"
           transform="translate(-409.141 -234.35)"
-          fill="transparent"
+          fill="#fff"
         />
       </G>
     </G>

@@ -44,6 +44,7 @@ export { Clock } from './icons/clock';
 export { CloseCircleOutline } from './icons/close-circle-outline';
 export { CloseCircle } from './icons/close-circle';
 export { Close } from './icons/close';
+export { Comment } from './icons/comment';
 export { Concert } from './icons/concert';
 export { DetailedCalendar } from './icons/detailed-calendar';
 export { DirectionSquare } from './icons/direction-square';

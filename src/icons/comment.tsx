@@ -16,11 +16,11 @@ import { themed } from '@tamagui/helpers-icon';
 const Icon = (props) => {
   const { color = 'black', size = 24, ...otherProps } = props
   return (
-  <Svg
+    <Svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
     height={size}
-    viewBox="0 0 16.553 17"
+    viewBox="0 0 17 18"
     {...otherProps}
   >
     <G
@@ -65,13 +65,13 @@ const Icon = (props) => {
       <G
         id="Ellipse_3795"
         data-name="Ellipse 3795"
-        transform="translate(339 401)"
+        transform="translate(338 400)"
         fill="#ec008b"
         stroke={color}
         strokeWidth={0.9}
       >
-        <Circle cx={3} cy={3} r={3} stroke="none" />
-        <Circle cx={3} cy={3} r={2.55} fill="none" />
+        <Circle cx={4} cy={4} r={4} stroke="none" />
+        <Circle cx={4} cy={4} r={3.55} fill="none" />
       </G>
       <Line
         id="Line_414"

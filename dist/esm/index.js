@@ -81,6 +81,7 @@ export { LocationOutline } from './icons/location-outline';
 export { Location } from './icons/location';
 export { Lock } from './icons/lock';
 export { MasterCardPayment } from './icons/master-card-payment';
+export { NotificationsOutline } from './icons/notifications-outline';
 export { NotificationsOffOutline } from './icons/notifications-off-outline';
 export { OnboardingAmusement } from './icons/onboarding-amusement';
 export { OnboardingConnect } from './icons/onboarding-connect';

@@ -30,6 +30,7 @@ export { CategoryMuseum } from './icons/category-museum';
 export { CategoryOther } from './icons/category-other';
 export { CategoryPark } from './icons/category-park';
 export { CategoryParty } from './icons/category-party';
+export { CategoryResponsibility } from './icons/category-responsibility';
 export { CategorySocial } from './icons/category-social';
 export { CategorySport } from './icons/category-sport';
 export { CategoryStandup } from './icons/category-standup';

@@ -96,6 +96,7 @@ export { PersonRoundedOutline } from './icons/person-rounded-outline';
 export { PersonWalking } from './icons/person-walking';
 export { PhoneBook } from './icons/phone-book';
 export { PhoneOutline } from './icons/phone-outline';
+export { Poll } from './icons/poll';
 export { ScanBarcode } from './icons/scan-barcode';
 export { Search } from './icons/search';
 export { Send } from './icons/send';

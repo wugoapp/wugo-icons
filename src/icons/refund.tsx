@@ -11,8 +11,8 @@ const Icon = (props) => {
   const { color = 'black', size = 24, ...otherProps } = props
   return (
    <Svg
-    width={24}
-    height={24}
+    width={size}
+    height={size}
     viewBox="0 0 24 24"
     fill="none"
     {...otherProps}

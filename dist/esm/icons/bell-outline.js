@@ -1,12 +1,10 @@
 import React, { memo } from 'react';
-import { Svg, G, Path, } from 'react-native-svg';
+import { Svg, Path, } from 'react-native-svg';
 import { themed } from '@tamagui/helpers-icon';
 const Icon = (props) => {
-    const { color = 'black', size = 24, strokeWidth, ...otherProps } = props;
-    return (<Svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 17.69 21.619" {...otherProps}>
-    <G data-name="Group 60379">
-      <Path stroke={color} strokeWidth={strokeWidth} strokeLinejoin="round" data-name="Path 66407" d="M16.71 12.162v2.462a2.752 2.752 0 01-.126.883c-.052.155-.024.2.148.212a.971.971 0 01.893 1.316.931.931 0 01-.8.633 2.746 2.746 0 01-.321.014h-3.475c-.177 0-.258.03-.265.231a3.921 3.921 0 01-7.827.054c-.013-.23-.08-.29-.308-.288-1.158.012-2.317.006-3.475.006a1.518 1.518 0 01-.456-.046.989.989 0 01-.687-1.068.947.947 0 01.87-.839c.253-.013.276-.081.2-.3a2.481 2.481 0 01-.1-.794V9.851a7.848 7.848 0 015.706-7.572c.163-.047.183-.132.185-.278a1.968 1.968 0 013.935-.078c.006.231.071.307.293.382a7.779 7.779 0 015.509 6.3 6.838 6.838 0 01.1 1.306v2.255M8.838 15.71h4.764a1 1 0 001.134-1.132v-4.58a7.535 7.535 0 00-.085-1.122 5.89 5.89 0 00-11.7.975c-.008 1.565 0 3.13 0 4.7A1.02 1.02 0 004.12 15.71h4.718m.015 1.972H7.084c-.149 0-.2.039-.188.2a1.825 1.825 0 00.42 1.024 1.875 1.875 0 001.991.676 1.9 1.9 0 001.463-1.542c.075-.334.05-.352-.286-.352H8.853" transform="translate(0 -.64) translate(0 .64)" fill={color}/>
-    </G>
+    const { color = 'black', size = 24, strokeWidth = 2, ...otherProps } = props;
+    return (<Svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 19 22" fill="none" {...otherProps}>
+    <Path d="M12.464 18a3 3 0 0 1-6 0M11.26 5.239a2.5 2.5 0 1 0-3.593 0m7.796 4.961c0-1.38-.632-2.702-1.757-3.677S11.055 5 9.463 5c-1.59 0-3.117.548-4.242 1.523S3.463 8.821 3.463 10.2c0 2.282-.565 3.95-1.271 5.145C1.387 16.705.984 17.386 1 17.549c.019.186.052.244.203.355.132.096.794.096 2.119.096h12.283c1.325 0 1.987 0 2.12-.096.15-.11.183-.17.202-.355.015-.163-.387-.843-1.192-2.204-.706-1.194-1.271-2.863-1.271-5.145" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round"/>
   </Svg>);
 };
 Icon.displayName = 'BellOutline';
